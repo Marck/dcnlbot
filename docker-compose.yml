@@ -1,7 +1,8 @@
-version: "2"
+version: "3.7"
 
 services:
   dcnlbot:
+    container_name: dcnlbot
     build: .
     environment:
       TZ: 'Europe/Amsterdam'
